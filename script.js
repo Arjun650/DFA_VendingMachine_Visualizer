@@ -98,7 +98,7 @@ async function checkTransaction(product, id) {
   // const product = document.getElementById("product").value;
   console.log(price[product].rate);
   const tem = Math.floor(price[product].rate / 10); // tem will be 2
-  const resultElement = document.getElementById("result");
+  const resultElement = document.getElementById("result");  
 
   // Reset all state colors
   const allStates = document.querySelectorAll(".state");
